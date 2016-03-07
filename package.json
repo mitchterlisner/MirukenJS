@@ -1,7 +1,28 @@
 {
   "name": "miruken",
   "version": "0.0.84",
-  "description": "",
+  "description": "Enhancements to the javascript language",
+  "keywords": [
+      "miruken",
+      "package",
+      "protocol"
+  ],
+  "homepage": "http://miruken.com",
+  "license": "MIT",
+  "author": "Craig Neuwirt <Craig.Neuwirt@Improving.com>",
+  "main": "dist/commonjs/miruken.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/miruken/MirukenJS"
+  },
+  "jspm": {
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },    
   "dependencies": {
     "bluebird": "^2.10.2",
     "chai": "^1.10.0",
@@ -20,11 +41,13 @@
     "grunt-include-source": "^0.6.1",
     "grunt-karma": "^0.10.1",
     "grunt-mocha-test": "latest",
+    "jspm": "^0.16.30",
     "karma": "^0.12.31",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.1.7",
     "karma-mocha": "^0.1.10",
     "karma-mocha-reporter": "^1.0.2",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "yargs": "^4.2.0"
   }
 }
